@@ -14,6 +14,10 @@ from plotly.graph_objs import *
 from scipy.integrate import odeint
 from scipy.optimize import curve_fit
 
+/**
+
+/***
+
 def data():
     data_confirmed = pd.read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv')
     data_confirmed = data_confirmed.drop(["Province/State", "Lat", "Long"], axis =1)
